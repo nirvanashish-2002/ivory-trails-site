@@ -169,10 +169,11 @@ textarea {
 }
 
 /* Scroll-reveal animation base state */
+/* TEMP FIX — disable reveal animations completely */
 .reveal {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
 }
 
 .reveal.is-visible {
